@@ -9,6 +9,9 @@ namespace Controller
     {
         public GameObject Bullet;
         public float VelocityBullet;
+        public float Velocity = 8f;
+        public float LimitXPos = 2.49f;
+        public float LimitXNeg = -6.1789f;
 
         private Player _player;
 
@@ -21,6 +24,7 @@ namespace Controller
         // Update is called once per frame
         void Update()
         {
+            Fly();
             FireBullet();
         }
 
@@ -39,6 +43,15 @@ namespace Controller
                 {
                     bulletFire.gameObject.transform.Translate(new Vector3(0, 1) * Time.deltaTime * bulletFire.Velocity);
                 }
+            }
+        }
+
+        void Fly()
+        {
+            Vector3 posicion = transform.position + new Vector3(Input.GetAxis("Horizontal"), 0, 0) * Velocity * Time.deltaTime;
+            if (posicion.x >= LimitXNeg && posicion.x <= LimitXPos)
+            {
+                transform.position = posicion;
             }
         }
     }
