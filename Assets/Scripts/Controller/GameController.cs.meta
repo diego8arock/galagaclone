@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: a187f5c40e9dd9343b098a6edf3ba579
-timeCreated: 1500081241
+timeCreated: 1500089499
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Allien1: {fileID: 1000010170607242, guid: f1951fa344a5fc04cbb6b5acd56cd32d, type: 2}
+  - Allien2: {fileID: 1000010170607242, guid: 6775bc49200ebbb4b8ad08b644dc60cf, type: 2}
+  - Allien3: {fileID: 1000010170607242, guid: 00dbced7148bcfa4bab01556de71ed7e, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
