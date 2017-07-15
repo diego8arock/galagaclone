@@ -45,23 +45,26 @@ namespace Controller
             for (int i = 0; i < _player.Bullets.Count; i++)
             {
                 Bullet bulletFire = _player.Bullets[i];
-                if (bulletFire != null)
+                if (bulletFire != null && bulletFire.gameObject != null)
                 {
                     bulletFire.gameObject.transform.Translate(new Vector3(0, 1) * Time.deltaTime * bulletFire.Velocity);
 
                     Vector3 bulletScreenPosition = Camera.main.WorldToScreenPoint(bulletFire.gameObject.transform.position);
-                    if(bulletScreenPosition.y >= Screen.height || bulletScreenPosition.y < 0)
+                    if (bulletScreenPosition.y >= Screen.height || bulletScreenPosition.y < 0)
                     {
                         DestroyObject(bulletFire.gameObject);
                         _player.Bullets.Remove(bulletFire);
                     }
                 }
+
+                if (bulletFire.gameObject == null)
+                    _player.Bullets.Remove(bulletFire);
             }
         }
 
         void Fly()
         {
-            Vector3 posicion = transform.position + new Vector3(Input.GetAxis("Horizontal"), 0, 0) * Velocity * Time.deltaTime;
+            Vector3 posicion = transform.position + new Vector3(Input.GetAxis("GalagaHInput"), 0, 0) * Velocity * Time.deltaTime;
                
             if(posicion.x + ShipRadius > _widthOrtho)
                 posicion.x = _widthOrtho - ShipRadius;
