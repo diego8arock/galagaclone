@@ -1,0 +1,2844 @@
+fileFormatVersion: 2
+guid: 32100eb3e214c1c4eb06981cbefa4736
+timeCreated: 1500700426
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: galaga_sheet_trans1_0
+    21300002: galaga_sheet_trans1_1
+    21300004: galaga_sheet_trans1_2
+    21300006: galaga_sheet_trans1_3
+    21300008: galaga_sheet_trans1_4
+    21300010: galaga_sheet_trans1_5
+    21300012: galaga_sheet_trans1_6
+    21300014: galaga_sheet_trans1_7
+    21300016: galaga_sheet_trans1_8
+    21300018: galaga_sheet_trans1_9
+    21300020: galaga_sheet_trans1_10
+    21300022: galaga_sheet_trans1_11
+    21300024: galaga_sheet_trans1_12
+    21300026: galaga_sheet_trans1_13
+    21300028: galaga_sheet_trans1_14
+    21300030: galaga_sheet_trans1_15
+    21300032: galaga_sheet_trans1_16
+    21300034: galaga_sheet_trans1_17
+    21300036: galaga_sheet_trans1_18
+    21300038: galaga_sheet_trans1_19
+    21300040: galaga_sheet_trans1_20
+    21300042: galaga_sheet_trans1_21
+    21300044: galaga_sheet_trans1_22
+    21300046: galaga_sheet_trans1_23
+    21300048: galaga_sheet_trans1_24
+    21300050: galaga_sheet_trans1_25
+    21300052: galaga_sheet_trans1_26
+    21300054: galaga_sheet_trans1_27
+    21300056: galaga_sheet_trans1_28
+    21300058: galaga_sheet_trans1_29
+    21300060: galaga_sheet_trans1_30
+    21300062: galaga_sheet_trans1_31
+    21300064: galaga_sheet_trans1_32
+    21300066: galaga_sheet_trans1_33
+    21300068: galaga_sheet_trans1_34
+    21300070: galaga_sheet_trans1_35
+    21300072: galaga_sheet_trans1_36
+    21300074: galaga_sheet_trans1_37
+    21300076: galaga_sheet_trans1_38
+    21300078: galaga_sheet_trans1_39
+    21300080: galaga_sheet_trans1_40
+    21300082: galaga_sheet_trans1_41
+    21300084: galaga_sheet_trans1_42
+    21300086: galaga_sheet_trans1_43
+    21300088: galaga_sheet_trans1_44
+    21300090: galaga_sheet_trans1_45
+    21300092: galaga_sheet_trans1_46
+    21300094: galaga_sheet_trans1_47
+    21300096: galaga_sheet_trans1_48
+    21300098: galaga_sheet_trans1_49
+    21300100: galaga_sheet_trans1_50
+    21300102: galaga_sheet_trans1_51
+    21300104: galaga_sheet_trans1_52
+    21300106: galaga_sheet_trans1_53
+    21300108: galaga_sheet_trans1_54
+    21300110: galaga_sheet_trans1_55
+    21300112: galaga_sheet_trans1_56
+    21300114: galaga_sheet_trans1_57
+    21300116: galaga_sheet_trans1_58
+    21300118: galaga_sheet_trans1_59
+    21300120: galaga_sheet_trans1_60
+    21300122: galaga_sheet_trans1_61
+    21300124: galaga_sheet_trans1_62
+    21300126: galaga_sheet_trans1_63
+    21300128: galaga_sheet_trans1_64
+    21300130: galaga_sheet_trans1_65
+    21300132: galaga_sheet_trans1_66
+    21300134: galaga_sheet_trans1_67
+    21300136: galaga_sheet_trans1_68
+    21300138: galaga_sheet_trans1_69
+    21300140: galaga_sheet_trans1_70
+    21300142: galaga_sheet_trans1_71
+    21300144: galaga_sheet_trans1_72
+    21300146: galaga_sheet_trans1_73
+    21300148: galaga_sheet_trans1_74
+    21300150: galaga_sheet_trans1_75
+    21300152: galaga_sheet_trans1_76
+    21300154: galaga_sheet_trans1_77
+    21300156: galaga_sheet_trans1_78
+    21300158: galaga_sheet_trans1_79
+    21300160: galaga_sheet_trans1_80
+    21300162: galaga_sheet_trans1_81
+    21300164: galaga_sheet_trans1_82
+    21300166: galaga_sheet_trans1_83
+    21300168: galaga_sheet_trans1_84
+    21300170: galaga_sheet_trans1_85
+    21300172: galaga_sheet_trans1_86
+    21300174: galaga_sheet_trans1_87
+    21300176: galaga_sheet_trans1_88
+    21300178: galaga_sheet_trans1_89
+    21300180: galaga_sheet_trans1_90
+    21300182: galaga_sheet_trans1_91
+    21300184: galaga_sheet_trans1_92
+    21300186: galaga_sheet_trans1_93
+    21300188: galaga_sheet_trans1_94
+    21300190: galaga_sheet_trans1_95
+    21300192: galaga_sheet_trans1_96
+    21300194: galaga_sheet_trans1_97
+    21300196: galaga_sheet_trans1_98
+    21300198: galaga_sheet_trans1_99
+    21300200: galaga_sheet_trans1_100
+    21300202: galaga_sheet_trans1_101
+    21300204: galaga_sheet_trans1_102
+    21300206: galaga_sheet_trans1_103
+    21300208: galaga_sheet_trans1_104
+    21300210: galaga_sheet_trans1_105
+    21300212: galaga_sheet_trans1_106
+    21300214: galaga_sheet_trans1_107
+    21300216: galaga_sheet_trans1_108
+    21300218: galaga_sheet_trans1_109
+    21300220: galaga_sheet_trans1_110
+    21300222: galaga_sheet_trans1_111
+    21300224: galaga_sheet_trans1_112
+    21300226: galaga_sheet_trans1_113
+    21300228: galaga_sheet_trans1_114
+    21300230: galaga_sheet_trans1_115
+    21300232: galaga_sheet_trans1_116
+    21300234: galaga_sheet_trans1_117
+    21300236: galaga_sheet_trans1_118
+    21300238: galaga_sheet_trans1_119
+    21300240: galaga_sheet_trans1_120
+    21300242: galaga_sheet_trans1_121
+    21300244: galaga_sheet_trans1_122
+    21300246: galaga_sheet_trans1_123
+    21300248: galaga_sheet_trans1_124
+    21300250: galaga_sheet_trans1_125
+    21300252: galaga_sheet_trans1_126
+    21300254: galaga_sheet_trans1_127
+    21300256: galaga_sheet_trans1_128
+    21300258: galaga_sheet_trans1_129
+    21300260: galaga_sheet_trans1_130
+    21300262: galaga_sheet_trans1_131
+    21300264: galaga_sheet_trans1_132
+    21300266: galaga_sheet_trans1_133
+    21300268: galaga_sheet_trans1_134
+    21300270: galaga_sheet_trans1_135
+    21300272: galaga_sheet_trans1_136
+    21300274: galaga_sheet_trans1_137
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 368
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: -1}
+        - {x: -1.5, y: -4}
+        - {x: -2.5, y: -4}
+        - {x: -2.5, y: 3}
+        - {x: 3.5, y: 2}
+        - {x: 6.5, y: 2}
+        - {x: 7.5, y: 3}
+        - {x: 7.5, y: 8}
+        - {x: -6.5, y: 8}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -7}
+        - {x: -6.5, y: -8}
+        - {x: 7.5, y: -8}
+        - {x: 7.5, y: 1}
+        - {x: -0.5, y: 1}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 368
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 6}
+        - {x: -7, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 368
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 8.5}
+        - {x: -6, y: -8.5}
+        - {x: 6, y: -8.5}
+        - {x: 6, y: -3.5}
+        - {x: 3, y: 8.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 368
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 6}
+        - {x: -7, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 363
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 8.5}
+        - {x: -7.5, y: -8.5}
+        - {x: 6.5, y: -8.5}
+        - {x: 7.5, y: -6.5}
+        - {x: 7.5, y: 8.5}
+      - - {x: -2.5, y: 2.5}
+        - {x: -1.5, y: 4.5}
+        - {x: -0.5, y: 1.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_5
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 368
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 6}
+        - {x: -7, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 316
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 3}
+        - {x: 3.5, y: 8}
+        - {x: -2.5, y: 8}
+        - {x: -7.5, y: 3}
+        - {x: -7.5, y: -8}
+        - {x: 7.5, y: -8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 316
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 8}
+        - {x: -7, y: 2}
+        - {x: -7, y: -7}
+        - {x: -1, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 2}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 316
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 3.5}
+        - {x: -7, y: -5.5}
+        - {x: -1, y: -7.5}
+        - {x: 7, y: -7.5}
+        - {x: 7, y: 7.5}
+        - {x: -1, y: 7.5}
+        - {x: -5, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 316
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 7}
+        - {x: -7, y: 4}
+        - {x: -7, y: -2}
+        - {x: -5, y: -7}
+        - {x: 5, y: -7}
+        - {x: 7, y: -5}
+        - {x: 7, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 316
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 7}
+        - {x: -7.5, y: -4}
+        - {x: -4.5, y: -7}
+        - {x: 4.5, y: -7}
+        - {x: 7.5, y: -1}
+        - {x: 7.5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 316
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7}
+        - {x: -8, y: -7}
+        - {x: 3, y: -7}
+        - {x: 8, y: -2}
+        - {x: 8, y: 5}
+        - {x: 3, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 317
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7.5}
+        - {x: -8, y: -7.5}
+        - {x: 3, y: -7.5}
+        - {x: 8, y: -3.5}
+        - {x: 8, y: 2.5}
+        - {x: 3, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 304
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 12}
+        - {x: -12, y: -11}
+        - {x: -9, y: -12}
+        - {x: 9, y: -12}
+        - {x: 12, y: -11}
+        - {x: 12, y: 9}
+        - {x: 11, y: 12}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 324
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 3}
+        - {x: -3.5, y: -3}
+        - {x: 3.5, y: -3}
+        - {x: 3.5, y: 2}
+        - {x: 1.5, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 324
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 3}
+        - {x: -3.5, y: 2}
+        - {x: -3.5, y: -3}
+        - {x: 2.5, y: -3}
+        - {x: 3.5, y: -1}
+        - {x: 3.5, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 300
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 324
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 3}
+        - {x: -3.5, y: 2}
+        - {x: -3.5, y: -3}
+        - {x: 2.5, y: -3}
+        - {x: 3.5, y: -1}
+        - {x: 3.5, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 292
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 3}
+        - {x: 3.5, y: 8}
+        - {x: -2.5, y: 8}
+        - {x: -7.5, y: 3}
+        - {x: -7.5, y: -8}
+        - {x: 7.5, y: -8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 292
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 8}
+        - {x: -7, y: 2}
+        - {x: -7, y: -7}
+        - {x: -1, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 2}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 292
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 3.5}
+        - {x: -7, y: -5.5}
+        - {x: -1, y: -7.5}
+        - {x: 7, y: -7.5}
+        - {x: 7, y: 7.5}
+        - {x: -1, y: 7.5}
+        - {x: -5, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 292
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 7}
+        - {x: -7, y: 4}
+        - {x: -7, y: -2}
+        - {x: -5, y: -7}
+        - {x: 5, y: -7}
+        - {x: 7, y: -5}
+        - {x: 7, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 292
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 7}
+        - {x: -7.5, y: -4}
+        - {x: -4.5, y: -7}
+        - {x: 4.5, y: -7}
+        - {x: 7.5, y: -1}
+        - {x: 7.5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 292
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7}
+        - {x: -8, y: -7}
+        - {x: 3, y: -7}
+        - {x: 8, y: -2}
+        - {x: 8, y: 5}
+        - {x: 3, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 293
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7.5}
+        - {x: -8, y: -7.5}
+        - {x: 3, y: -7.5}
+        - {x: 8, y: -3.5}
+        - {x: 8, y: 2.5}
+        - {x: 3, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 302
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 3}
+        - {x: -3.5, y: -3}
+        - {x: 1.5, y: -3}
+        - {x: 3.5, y: -2}
+        - {x: 3.5, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 302
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 3}
+        - {x: -3.5, y: -2}
+        - {x: -1.5, y: -3}
+        - {x: 3.5, y: -3}
+        - {x: 3.5, y: 1}
+        - {x: 2.5, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_27
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 302
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 3}
+        - {x: -3.5, y: -3}
+        - {x: 1.5, y: -3}
+        - {x: 3.5, y: -2}
+        - {x: 3.5, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_28
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 302
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 3}
+        - {x: -3.5, y: -2}
+        - {x: -1.5, y: -3}
+        - {x: 3.5, y: -3}
+        - {x: 3.5, y: 1}
+        - {x: 2.5, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_29
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 275
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -10}
+        - {x: -4, y: -14}
+        - {x: 4, y: -14}
+        - {x: 4, y: -10}
+        - {x: 0, y: -9}
+      - - {x: -3, y: 14}
+        - {x: -4, y: 12}
+        - {x: -4, y: 5}
+        - {x: -2, y: 5}
+        - {x: 4, y: 9}
+        - {x: 4, y: 14}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 268
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -6.5}
+        - {x: -5.5, y: -7.5}
+        - {x: 5.5, y: -7.5}
+        - {x: 7.5, y: -3.5}
+        - {x: 7.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 268
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 4}
+        - {x: 6.5, y: 8}
+        - {x: -4.5, y: 8}
+        - {x: -6.5, y: 6}
+        - {x: -7.5, y: 4}
+        - {x: -7.5, y: -8}
+        - {x: 7.5, y: -8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_32
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 268
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7.5}
+        - {x: -7, y: -7.5}
+        - {x: 6, y: -7.5}
+        - {x: 7, y: -6.5}
+        - {x: 7, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 268
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7.5}
+        - {x: -7, y: -4.5}
+        - {x: -4, y: -4.5}
+        - {x: -2, y: -7.5}
+        - {x: 7, y: -7.5}
+        - {x: 7, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_34
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7}
+        - {x: -7, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 269
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 7}
+        - {x: -7.5, y: -4}
+        - {x: -6.5, y: -7}
+        - {x: 4.5, y: -7}
+        - {x: 7.5, y: -5}
+        - {x: 7.5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_36
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 269
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: -7}
+        - {x: 7.5, y: -7}
+        - {x: 7.5, y: 7}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 269
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7.5}
+        - {x: -8, y: -7.5}
+        - {x: 4, y: -7.5}
+        - {x: 8, y: -6.5}
+        - {x: 8, y: 5.5}
+        - {x: 5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 244
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -6.5}
+        - {x: -5.5, y: -7.5}
+        - {x: 5.5, y: -7.5}
+        - {x: 7.5, y: -3.5}
+        - {x: 7.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 244
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 4}
+        - {x: 6.5, y: 8}
+        - {x: -4.5, y: 8}
+        - {x: -6.5, y: 6}
+        - {x: -7.5, y: 4}
+        - {x: -7.5, y: -8}
+        - {x: 7.5, y: -8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 244
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7.5}
+        - {x: -7, y: -7.5}
+        - {x: 6, y: -7.5}
+        - {x: 7, y: -6.5}
+        - {x: 7, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 244
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7.5}
+        - {x: -7, y: -4.5}
+        - {x: -4, y: -4.5}
+        - {x: -2, y: -7.5}
+        - {x: 7, y: -7.5}
+        - {x: 7, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_42
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7}
+        - {x: -7, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 245
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 7}
+        - {x: -7.5, y: -4}
+        - {x: -6.5, y: -7}
+        - {x: 4.5, y: -7}
+        - {x: 7.5, y: -5}
+        - {x: 7.5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_44
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 245
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: -7}
+        - {x: 7.5, y: -7}
+        - {x: 7.5, y: 7}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 245
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7.5}
+        - {x: -8, y: -7.5}
+        - {x: 4, y: -7.5}
+        - {x: 8, y: -6.5}
+        - {x: 8, y: 5.5}
+        - {x: 5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_46
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 250
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 5}
+        - {x: -9, y: -4}
+        - {x: -7, y: -5}
+        - {x: 7, y: -5}
+        - {x: 9, y: -3}
+        - {x: 9, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 250
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 5}
+        - {x: -9, y: -4}
+        - {x: -7, y: -5}
+        - {x: 7, y: -5}
+        - {x: 9, y: -3}
+        - {x: 9, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_48
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 250
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 5}
+        - {x: -9, y: -4}
+        - {x: -7, y: -5}
+        - {x: 7, y: -5}
+        - {x: 9, y: -3}
+        - {x: 9, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_49
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 244
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -11, y: -2}
+        - {x: 11, y: -2}
+        - {x: 11, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_50
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 244
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -11, y: -2}
+        - {x: 11, y: -2}
+        - {x: 11, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_51
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 244
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -11, y: -2}
+        - {x: 11, y: -2}
+        - {x: 11, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 239
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 2}
+        - {x: -12, y: -2}
+        - {x: 12, y: -2}
+        - {x: 12, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_53
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 239
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 2}
+        - {x: -12, y: -2}
+        - {x: 12, y: -2}
+        - {x: 12, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_54
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 239
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 2}
+        - {x: -12, y: -2}
+        - {x: 12, y: -2}
+        - {x: 12, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_55
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 5}
+        - {x: -4.5, y: -5}
+        - {x: 4.5, y: -5}
+        - {x: 4.5, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_56
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 223
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 5}
+        - {x: -6.5, y: -5}
+        - {x: 6.5, y: -5}
+        - {x: 6.5, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_57
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 222
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 6}
+        - {x: -5.5, y: -6}
+        - {x: 5.5, y: -6}
+        - {x: 5.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 222
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 6}
+        - {x: -7, y: 4}
+        - {x: -7, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: 4}
+        - {x: 4, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_59
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 222
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 6}
+        - {x: -6, y: 3}
+        - {x: -6, y: -4}
+        - {x: -5, y: -6}
+        - {x: 3, y: -6}
+        - {x: 6, y: -3}
+        - {x: 6, y: 3}
+        - {x: 3, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_60
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 221
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 7}
+        - {x: -6, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 4}
+        - {x: 4, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 223
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 5.5}
+        - {x: -6, y: -5.5}
+        - {x: 6, y: -5.5}
+        - {x: 6, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_62
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 222
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 6.5}
+        - {x: -5, y: -6.5}
+        - {x: 5, y: -6.5}
+        - {x: 5, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_63
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 231
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 2}
+        - {x: -15, y: -2}
+        - {x: 15, y: -2}
+        - {x: 15, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_64
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 231
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 2}
+        - {x: -15, y: -2}
+        - {x: 15, y: -2}
+        - {x: 15, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_65
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 231
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 2}
+        - {x: -15, y: -2}
+        - {x: 15, y: -2}
+        - {x: 15, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_66
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 223
+        width: 34
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 2}
+        - {x: -17, y: -2}
+        - {x: 17, y: -2}
+        - {x: 17, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_67
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 223
+        width: 34
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 2}
+        - {x: -17, y: -2}
+        - {x: 17, y: -2}
+        - {x: 17, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_68
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 223
+        width: 34
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 2}
+        - {x: -17, y: -2}
+        - {x: 17, y: -2}
+        - {x: 17, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_69
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 215
+        width: 38
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 3}
+        - {x: -19, y: -3}
+        - {x: 19, y: -3}
+        - {x: 19, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_70
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 215
+        width: 38
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 3}
+        - {x: -19, y: -3}
+        - {x: 19, y: -3}
+        - {x: 19, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_71
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 215
+        width: 38
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 3}
+        - {x: -19, y: -3}
+        - {x: 19, y: -3}
+        - {x: 19, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_72
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 199
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 5}
+        - {x: -4.5, y: -5}
+        - {x: 4.5, y: -5}
+        - {x: 4.5, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_73
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 199
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 5}
+        - {x: -6.5, y: -5}
+        - {x: 6.5, y: -5}
+        - {x: 6.5, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 150
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 5.5}
+        - {x: -5.5, y: -5.5}
+        - {x: 2.5, y: -5.5}
+        - {x: 5.5, y: -1.5}
+        - {x: 5.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_75
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 174
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 5.5}
+        - {x: -5.5, y: -2.5}
+        - {x: -2.5, y: -5.5}
+        - {x: 2.5, y: -5.5}
+        - {x: 5.5, y: -2.5}
+        - {x: 5.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_76
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 174
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 5.5}
+        - {x: -6, y: -3.5}
+        - {x: -4, y: -5.5}
+        - {x: 2, y: -5.5}
+        - {x: 6, y: -2.5}
+        - {x: 6, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_77
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 198
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 6}
+        - {x: -5.5, y: -6}
+        - {x: 5.5, y: -6}
+        - {x: 5.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_78
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 149
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 6}
+        - {x: -5.5, y: -3}
+        - {x: -3.5, y: -6}
+        - {x: 5.5, y: -6}
+        - {x: 5.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 198
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 6.5}
+        - {x: -7, y: 3.5}
+        - {x: -7, y: -3.5}
+        - {x: -1, y: -6.5}
+        - {x: 7, y: -6.5}
+        - {x: 7, y: 4.5}
+        - {x: 5, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_80
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 152
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 5}
+        - {x: -6.5, y: -5}
+        - {x: 5.5, y: -5}
+        - {x: 6.5, y: -4}
+        - {x: 6.5, y: 3}
+        - {x: 5.5, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_81
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 174
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 6}
+        - {x: -5.5, y: -6}
+        - {x: 4.5, y: -6}
+        - {x: 5.5, y: -5}
+        - {x: 5.5, y: 3}
+        - {x: 2.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_82
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 197
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 6.5}
+        - {x: -6.5, y: 2.5}
+        - {x: -6.5, y: -4.5}
+        - {x: -3.5, y: -6.5}
+        - {x: 5.5, y: -6.5}
+        - {x: 6.5, y: -4.5}
+        - {x: 6.5, y: 4.5}
+        - {x: 4.5, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_83
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 175
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 5.5}
+        - {x: -5.5, y: -5.5}
+        - {x: 5.5, y: -5.5}
+        - {x: 5.5, y: 4.5}
+        - {x: 4.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_84
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 150
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 6}
+        - {x: -5, y: -6}
+        - {x: 4, y: -6}
+        - {x: 5, y: -5}
+        - {x: 5, y: 5}
+        - {x: 4, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_85
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 175
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 5.5}
+        - {x: -6, y: 4.5}
+        - {x: -6, y: -5.5}
+        - {x: 6, y: -5.5}
+        - {x: 6, y: 2.5}
+        - {x: 4, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_86
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 153
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 5}
+        - {x: -6, y: 3}
+        - {x: -6, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: 3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_87
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 197
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 7}
+        - {x: -6.5, y: -4}
+        - {x: -5.5, y: -7}
+        - {x: 5.5, y: -7}
+        - {x: 6.5, y: -6}
+        - {x: 6.5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_88
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 198
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 5.5}
+        - {x: -6, y: -5.5}
+        - {x: 6, y: -5.5}
+        - {x: 6, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_89
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 152
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 5.5}
+        - {x: -5.5, y: 1.5}
+        - {x: -5.5, y: -5.5}
+        - {x: 5.5, y: -5.5}
+        - {x: 5.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_90
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 174
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 6}
+        - {x: -5.5, y: 4}
+        - {x: -5.5, y: -5}
+        - {x: -4.5, y: -6}
+        - {x: 5.5, y: -6}
+        - {x: 5.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_91
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 151
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 5.5}
+        - {x: -5.5, y: -3.5}
+        - {x: -2.5, y: -5.5}
+        - {x: 5.5, y: -5.5}
+        - {x: 5.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_92
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 175
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 5.5}
+        - {x: -5.5, y: 2.5}
+        - {x: -5.5, y: -2.5}
+        - {x: -2.5, y: -5.5}
+        - {x: 5.5, y: -5.5}
+        - {x: 5.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_93
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 198
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 6.5}
+        - {x: -5, y: -6.5}
+        - {x: 5, y: -6.5}
+        - {x: 5, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_94
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 204
+        width: 46
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 3.5}
+        - {x: -23, y: -2.5}
+        - {x: -19, y: -3.5}
+        - {x: 19, y: -3.5}
+        - {x: 23, y: -2.5}
+        - {x: 23, y: 3.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_95
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 150
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 6.5}
+        - {x: -6, y: 5.5}
+        - {x: -6, y: -5.5}
+        - {x: -5, y: -6.5}
+        - {x: 6, y: -6.5}
+        - {x: 6, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_96
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 184
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 4}
+        - {x: -19, y: -4}
+        - {x: -15, y: -4}
+        - {x: -14, y: 2}
+        - {x: -15, y: 4}
+      - - {x: -7, y: -3}
+        - {x: -7, y: -4}
+        - {x: 2, y: -4}
+        - {x: 4, y: 3}
+        - {x: 3, y: 4}
+        - {x: -1, y: 4}
+        - {x: -4, y: 3}
+      - - {x: 11, y: 3}
+        - {x: 9, y: 1}
+        - {x: 10, y: -3}
+        - {x: 19, y: -3}
+        - {x: 19, y: 3}
+        - {x: 15, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_97
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 157
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 3.5}
+        - {x: -4, y: -3.5}
+        - {x: 4, y: -3.5}
+        - {x: 4, y: 3.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_98
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 155
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 4}
+        - {x: -2.5, y: -4}
+        - {x: 2.5, y: -4}
+        - {x: 2.5, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_99
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 204
+        width: 46
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 3.5}
+        - {x: -23, y: -2.5}
+        - {x: -19, y: -3.5}
+        - {x: 19, y: -3.5}
+        - {x: 23, y: -2.5}
+        - {x: 23, y: 3.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_100
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 126
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 6}
+        - {x: -5.5, y: 3}
+        - {x: -5.5, y: -6}
+        - {x: 5.5, y: -6}
+        - {x: 5.5, y: 3}
+        - {x: 3.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_101
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 126
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 6}
+        - {x: -5.5, y: 3}
+        - {x: -5.5, y: -5}
+        - {x: -3.5, y: -6}
+        - {x: 5.5, y: -6}
+        - {x: 5.5, y: 5}
+        - {x: 4.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_102
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 125
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 6}
+        - {x: -6, y: 3}
+        - {x: -6, y: -4}
+        - {x: -4, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_103
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 126
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 5.5}
+        - {x: -5.5, y: 4.5}
+        - {x: -5.5, y: -5.5}
+        - {x: 5.5, y: -5.5}
+        - {x: 5.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_104
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 125
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 6}
+        - {x: -6, y: -6}
+        - {x: 5, y: -6}
+        - {x: 6, y: -4}
+        - {x: 6, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_105
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 126
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 5.5}
+        - {x: -6, y: -5.5}
+        - {x: 3, y: -5.5}
+        - {x: 6, y: -1.5}
+        - {x: 6, y: 4.5}
+        - {x: 5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_106
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 127
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 5.5}
+        - {x: -6, y: -5.5}
+        - {x: 3, y: -5.5}
+        - {x: 6, y: -3.5}
+        - {x: 6, y: 3.5}
+        - {x: 3, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 102
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 6}
+        - {x: -7.5, y: -5}
+        - {x: -6.5, y: -6}
+        - {x: 5.5, y: -6}
+        - {x: 7.5, y: -2}
+        - {x: 7.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_108
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 102
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -2}
+        - {x: -5, y: -6}
+        - {x: 1, y: -6}
+        - {x: 5, y: -4}
+        - {x: 7, y: -2}
+        - {x: 7, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_109
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 103
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 6}
+        - {x: -6.5, y: -6}
+        - {x: 6.5, y: -6}
+        - {x: 6.5, y: 5}
+        - {x: 5.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_110
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 103
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 6.5}
+        - {x: -6.5, y: -6.5}
+        - {x: 6.5, y: -6.5}
+        - {x: 6.5, y: 4.5}
+        - {x: 2.5, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_111
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 103
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 6.5}
+        - {x: -6, y: 6.5}
+        - {x: -6, y: -6.5}
+        - {x: 6, y: -6.5}
+        - {x: 6, y: 3.5}
+        - {x: 4, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_112
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 102
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 7}
+        - {x: -6, y: 4}
+        - {x: -6, y: -6}
+        - {x: -4, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 6}
+        - {x: 5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_113
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 101
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -6, y: 3.5}
+        - {x: -6, y: -2.5}
+        - {x: -1, y: -7.5}
+        - {x: 6, y: -7.5}
+        - {x: 6, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_114
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 100
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 8}
+        - {x: -7.5, y: -3}
+        - {x: -2.5, y: -8}
+        - {x: 2.5, y: -8}
+        - {x: 7.5, y: -3}
+        - {x: 7.5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_115
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 100
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 8}
+        - {x: -7.5, y: -3}
+        - {x: -2.5, y: -8}
+        - {x: 2.5, y: -8}
+        - {x: 7.5, y: -3}
+        - {x: 7.5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_116
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 100
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 8}
+        - {x: -7.5, y: -3}
+        - {x: -2.5, y: -8}
+        - {x: 2.5, y: -8}
+        - {x: 7.5, y: -3}
+        - {x: 7.5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_117
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 100
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 7}
+        - {x: -6.5, y: -3}
+        - {x: -2.5, y: -7}
+        - {x: 2.5, y: -7}
+        - {x: 6.5, y: -3}
+        - {x: 6.5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_118
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 100
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 7}
+        - {x: -3.5, y: -6}
+        - {x: -2.5, y: -7}
+        - {x: 2.5, y: -7}
+        - {x: 3.5, y: -6}
+        - {x: 3.5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_119
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 100
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 6}
+        - {x: -3.5, y: -5}
+        - {x: -2.5, y: -6}
+        - {x: 2.5, y: -6}
+        - {x: 3.5, y: -5}
+        - {x: 3.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_120
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 76
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 8}
+        - {x: -6.5, y: -8}
+        - {x: 6.5, y: -8}
+        - {x: 6.5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_121
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 76
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -7, y: 7}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_122
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -7}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_123
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -8, y: 7}
+        - {x: -8, y: -7}
+        - {x: -7, y: -7}
+        - {x: -5, y: -8}
+        - {x: 3, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_125
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 77
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7}
+        - {x: -8, y: -7}
+        - {x: 5, y: -7}
+        - {x: 8, y: -4}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_126
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 78
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 6.5}
+        - {x: -8, y: -6.5}
+        - {x: 8, y: -6.5}
+        - {x: 8, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_127
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 52
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 8}
+        - {x: -7.5, y: -8}
+        - {x: 6.5, y: -8}
+        - {x: 7.5, y: -7}
+        - {x: 7.5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_128
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 52
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 8}
+        - {x: -7.5, y: -4}
+        - {x: -5.5, y: -8}
+        - {x: 7.5, y: -8}
+        - {x: 7.5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_129
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 52
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -7, y: 0}
+        - {x: -5, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_130
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 24
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 5}
+        - {x: -21, y: -5}
+        - {x: 21, y: -5}
+        - {x: 21, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_131
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 24
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 5}
+        - {x: -7, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_132
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 4}
+        - {x: -14, y: -4}
+        - {x: 14, y: -4}
+        - {x: 14, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_133
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 11
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 4}
+        - {x: -17.5, y: -4}
+        - {x: 17.5, y: -4}
+        - {x: 17.5, y: 3}
+        - {x: 16.5, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_134
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 11
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 4}
+        - {x: -10, y: -4}
+        - {x: 10, y: -4}
+        - {x: 10, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_135
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 324
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 3}
+        - {x: -3.5, y: -3}
+        - {x: 3.5, y: -3}
+        - {x: 3.5, y: 2}
+        - {x: 1.5, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_136
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 220
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -9}
+        - {x: -15, y: -29}
+        - {x: -7, y: -29}
+        - {x: -8, y: -24}
+        - {x: -11, y: -14}
+        - {x: -13, y: -9}
+      - - {x: 7, y: -24}
+        - {x: 7, y: -29}
+        - {x: 15, y: -29}
+        - {x: 15, y: -9}
+        - {x: 11, y: -10}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_137
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 94
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 9.5}
+        - {x: -6.5, y: 8.5}
+        - {x: -6.5, y: -2.5}
+        - {x: -1.5, y: -5.5}
+        - {x: 2.5, y: -5.5}
+        - {x: 4.5, y: -3.5}
+        - {x: 4.5, y: 9.5}
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

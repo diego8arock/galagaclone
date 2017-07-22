@@ -65,9 +65,11 @@ namespace Controller
         void Fly()
         {
             Vector3 posicion = transform.position + new Vector3(Input.GetAxis("GalagaHInput"), 0, 0) * Velocity * Time.deltaTime;
-               
-            if(posicion.x + ShipRadius > _widthOrtho)
-                posicion.x = _widthOrtho - ShipRadius;
+
+            if (posicion.x + ShipRadius > (_widthOrtho- 2.4f))
+            {
+                posicion.x = (_widthOrtho - 2.4f) - ShipRadius;
+            }
 
             if (posicion.x - ShipRadius < -_widthOrtho)
                 posicion.x = -_widthOrtho + ShipRadius;
