@@ -17,12 +17,13 @@ namespace Controller
         public static List<Allien> Alliens { set; get; }
         private bool Started = false;
         private Vector3 InitialPosition;
-        private List<GameObject> Lives;
+        public static List<GameObject> Lives;
         private Text StartText;
         private Text StageText;
         private Text LiveText;
         private Text ReadyText;
-        public float TimeLiveEnable = 0.02f;
+        private Text GameOverText;
+        public float TimeLiveEnable = 0.3f;
         public static int ScoreValue;
         public static int HighScoreValue;
         private float y = 3.7f;
@@ -38,16 +39,18 @@ namespace Controller
             StageText = GameObject.Find("StageText").GetComponent<Text>();
             LiveText = GameObject.Find("LiveText").GetComponent<Text>();
             ReadyText = GameObject.Find("ReadyText").GetComponent<Text>();
+            GameOverText = GameObject.Find("GameOverText").GetComponent<Text>();
 
-            GameObject ship = (GameObject)Instantiate(Ship, new Vector3(4.66f, -0.53f, 0), Quaternion.identity);
+            GameObject ship = (GameObject)Instantiate(Ship, new Vector3(4.58f, -0.53f, 0), Quaternion.identity);
             Lives.Add(ship);
-            ship = (GameObject)Instantiate(Ship, new Vector3(5.25f, -0.53f, 0), Quaternion.identity);
+            ship = (GameObject)Instantiate(Ship, new Vector3(5.27f, -0.53f, 0), Quaternion.identity);
             Lives.Add(ship);
-            ship = (GameObject)Instantiate(Ship, new Vector3(5.901f, -0.53f, 0), Quaternion.identity);
+            ship = (GameObject)Instantiate(Ship, new Vector3(5.94f, -0.53f, 0), Quaternion.identity);
             Lives.Add(ship);
             
             StageText.enabled = false;
             ReadyText.enabled = false;
+            GameOverText.enabled = false;
             Player.SetActive(false);
             StartCoroutine(BeginStart());
         }
@@ -69,7 +72,7 @@ namespace Controller
 
         void StartGame()
         {
-            GetLive();
+            GetLive(this.Player);
 
             AddAllien(4, PrefaBoss, AllienType.BOSS);
             AddAllien(8, PrefaButterfly, AllienType.BUTTERFLY);
@@ -78,7 +81,7 @@ namespace Controller
             AddAllien(10, PrefaBee, AllienType.BEE);
         }
 
-        void GetLive()
+        public static void GetLive(GameObject Player)
         {
             Lives[Lives.Count - 1].SetActive(false);
             Lives.RemoveAt(Lives.Count - 1);
@@ -92,7 +95,7 @@ namespace Controller
             if (Started && TimeLiveEnable <= 0)
             {
                 LiveText.enabled = !LiveText.enabled;
-                TimeLiveEnable = 1;
+                TimeLiveEnable = 0.3f;
             }
         }
 
@@ -133,6 +136,26 @@ namespace Controller
                 AlliensTemp.Add(allien);
             }
             ShowAlliens(AlliensTemp);
+        }
+
+        public static void setScore(GameObject allienObject)
+        {
+            Text Score = GameObject.Find("Score").GetComponent<Text>();
+            Text HighScore = GameObject.Find("HighScore").GetComponent<Text>();
+            foreach (Model.Allien allien in GameController.Alliens)
+            {
+                if (allienObject.Equals(allien.gameObject))
+                {
+                    GameController.ScoreValue += allien.GetAllienValue();
+                    break;
+                }
+            }
+            Score.text = GameController.ScoreValue.ToString();
+            if (GameController.ScoreValue > GameController.HighScoreValue)
+            {
+                GameController.HighScoreValue = GameController.ScoreValue;
+                HighScore.text = GameController.ScoreValue.ToString();
+            }
         }
     }
 }

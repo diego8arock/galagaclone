@@ -16,6 +16,12 @@ namespace Model {
         public AllienState state { set; get; }
 
         public AllienType type { set; get; }
+        public List<Bullet> Bullets { set; get; }
+
+        public Allien()
+        {
+            Bullets = new List<Bullet>();
+        }
 
         public int GetAllienValue()
         {
@@ -83,6 +89,14 @@ namespace Model {
 
             //unhandled rarity?
             return 0;
+        }
+
+        public void AddBullet(GameObject gameObject, float velocity)
+        {
+            Bullet bullet = new Bullet();
+            bullet.gameObject = gameObject;
+            bullet.Velocity = velocity;
+            Bullets.Add(bullet);
         }
     }
 }
