@@ -12,6 +12,12 @@ namespace Controller
         private Allien _allien;
         public float VelocityBullet;
         private bool disparo;
+        private float startTime;
+        private float journeyLength;
+        public float Speed = 3.0f;
+        private Vector3 startPosition;
+        private Vector3 endPosition;
+        private GameObject TileToMove;
 
         // Use this for initialization
         void Start()
@@ -23,7 +29,7 @@ namespace Controller
         // Update is called once per frame
         void Update()
         {
-            if (!disparo)
+           /* if (!disparo)
             {
                 int alienIndex = Random.Range(1, 2);
 
@@ -55,6 +61,23 @@ namespace Controller
                             _allien.Bullets.Remove(bulletFire);
                     }
                 }
+            }*/
+
+            if (_allien != null)
+            {
+                if (_allien.state == Model.AllienState.ENTERING)
+                {
+                    float distCovered = (Time.time - startTime) * Speed;
+                    float fracJourney = distCovered / journeyLength;
+                    transform.position = Vector3.Lerp(startPosition, endPosition, fracJourney);
+                    if (Vector3.Distance(transform.position, endPosition) < 0.1f)
+                        _allien.state = AllienState.STILL_IN_GRID;
+                }
+
+                if (_allien.state == AllienState.STILL_IN_GRID)
+                {
+                    transform.position = TileToMove.transform.position;
+                }
             }
         }
 
@@ -66,6 +89,19 @@ namespace Controller
                 DestroyObject(gameObject);
                 GameController.setScore(this.gameObject);
             }
+        }
+
+        public void SetTileToAlien(object[] fparams)
+        {
+            object allien = fparams[0];
+            object tile = fparams[1];
+            TileToMove = (GameObject)tile;
+            _allien = (Allien)allien;
+            startPosition = transform.position;
+            endPosition = TileToMove.transform.position;
+            _allien.state = AllienState.ENTERING;
+            startTime = Time.time;
+            journeyLength = Vector3.Distance(startPosition, endPosition);
         }
 
     }
