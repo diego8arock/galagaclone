@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Model {
 
-    public enum AllienState { IN_FORMATION, DIVING_ALONE, DIVING_ONE, DIVING_TWO }
+    public enum AllienState { CREATED, ENTERING, STILL_IN_GRID, DIVING_ONE, DIVING_TWO }
     public enum AllienType { BEE, BUTTERFLY, BOSS }
 
     public class Allien {
@@ -16,7 +16,10 @@ namespace Model {
         public AllienState state { set; get; }
 
         public AllienType type { set; get; }
+
         public List<Bullet> Bullets { set; get; }
+
+        public string TileName { set; get; }
 
         public Allien()
         {
@@ -29,9 +32,9 @@ namespace Model {
             {
                 switch (state)
                 {
-                    case AllienState.IN_FORMATION:
+                    case AllienState.STILL_IN_GRID:
                         return 50;
-                    case AllienState.DIVING_ALONE:
+                    case AllienState.ENTERING:
                         return 100;
                     case AllienState.DIVING_ONE:
                         return 100;
@@ -43,9 +46,9 @@ namespace Model {
             {
                 switch (state)
                 {
-                    case AllienState.IN_FORMATION:
+                    case AllienState.STILL_IN_GRID:
                         return 80;
-                    case AllienState.DIVING_ALONE:
+                    case AllienState.ENTERING:
                         return 160;
                     case AllienState.DIVING_ONE:
                         return 160;
@@ -57,9 +60,9 @@ namespace Model {
             {
                 switch (state)
                 {
-                    case AllienState.IN_FORMATION:
+                    case AllienState.STILL_IN_GRID:
                         return 150;
-                    case AllienState.DIVING_ALONE:
+                    case AllienState.ENTERING:
                         return 400;
                     case AllienState.DIVING_ONE:
                         return 800;
