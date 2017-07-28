@@ -18,6 +18,8 @@ namespace Controller
         private Player _player;
 
         Animator animator;
+        public AudioClip Shot;
+        public AudioClip Explode;
 
         // Use this for initialization
         void Start()
@@ -26,6 +28,7 @@ namespace Controller
             _screenRation = (float)Screen.width / Screen.height;
             _widthOrtho = Camera.main.orthographicSize * _screenRation;
             animator = GetComponent<Animator>();
+            GetComponent<AudioSource>().playOnAwake = false;
         }
 
         // Update is called once per frame
@@ -37,32 +40,37 @@ namespace Controller
 
         void FireBullet()
         {
-            if (Input.GetButtonDown("Jump"))
+            if (animator.GetInteger("state") == 0)
             {
-                if (_player.Bullets.Count < 2)
+                if (Input.GetButtonDown("Jump"))
                 {
-                    GameObject bulletItem = (GameObject)Instantiate(Bullet, transform.position, Quaternion.identity);
-                    _player.AddBullet(bulletItem, VelocityBullet);
-                }
-            }
-
-            for (int i = 0; i < _player.Bullets.Count; i++)
-            {
-                Bullet bulletFire = _player.Bullets[i];
-                if (bulletFire != null && bulletFire.gameObject != null)
-                {
-                    bulletFire.gameObject.transform.Translate(new Vector3(0, 1) * Time.deltaTime * bulletFire.Velocity);
-
-                    Vector3 bulletScreenPosition = Camera.main.WorldToScreenPoint(bulletFire.gameObject.transform.position);
-                    if (bulletScreenPosition.y >= Screen.height || bulletScreenPosition.y < 0)
+                    if (_player.Bullets.Count < 2)
                     {
-                        DestroyObject(bulletFire.gameObject);
-                        _player.Bullets.Remove(bulletFire);
+                        GameObject bulletItem = (GameObject)Instantiate(Bullet, transform.position + new Vector3(0, 0.5f), Quaternion.identity);
+                        _player.AddBullet(bulletItem, VelocityBullet);
+                        GetComponent<AudioSource>().clip = Shot;
+                        GetComponent<AudioSource>().Play();
                     }
                 }
 
-                if (bulletFire.gameObject == null)
-                    _player.Bullets.Remove(bulletFire);
+                for (int i = 0; i < _player.Bullets.Count; i++)
+                {
+                    Bullet bulletFire = _player.Bullets[i];
+                    if (bulletFire != null && bulletFire.gameObject != null)
+                    {
+                        bulletFire.gameObject.transform.Translate(new Vector3(0, 1) * Time.deltaTime * bulletFire.Velocity);
+
+                        Vector3 bulletScreenPosition = Camera.main.WorldToScreenPoint(bulletFire.gameObject.transform.position);
+                        if (bulletScreenPosition.y >= Screen.height || bulletScreenPosition.y < 0)
+                        {
+                            DestroyObject(bulletFire.gameObject);
+                            _player.Bullets.Remove(bulletFire);
+                        }
+                    }
+
+                    if (bulletFire.gameObject == null)
+                        _player.Bullets.Remove(bulletFire);
+                }            
             }
         }
 
@@ -94,6 +102,8 @@ namespace Controller
                 {
                     GameController.setScore(collision.gameObject);
                 }
+                GetComponent<AudioSource>().clip = Explode;
+                GetComponent<AudioSource>().Play();
                 StartCoroutine(TakeLive());
             }
         }
