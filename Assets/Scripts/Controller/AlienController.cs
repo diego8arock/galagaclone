@@ -21,6 +21,7 @@ namespace Controller
         private Animator animator;
         public AudioClip Explode;
         public AudioClip Results;
+        private float archSize = 0.8f;
 
         // Use this for initialization
         void Start()
@@ -72,17 +73,60 @@ namespace Controller
             {
                 if (_allien.state == Model.AllienState.ENTERING)
                 {
-                    float distCovered = (Time.time - startTime) * Speed;
-                    float fracJourney = distCovered / journeyLength;
-                    transform.position = Vector3.Lerp(startPosition, endPosition, fracJourney);
-                    if (Vector3.Distance(transform.position, endPosition) < 0.1f)
-                        _allien.state = AllienState.STILL_IN_GRID;
+                    MoveAlientToGrid();
                 }
 
                 if (_allien.state == AllienState.STILL_IN_GRID)
                 {
                     transform.position = TileToMove.transform.position;
+                    startPosition = transform.position;
                 }
+
+                if (_allien.state == AllienState.DIVING_ONE)
+                {
+                    AllienAttack();
+                }
+
+                if (_allien.state == AllienState.RETURN_TO_GRID)
+                {
+                    ReturnAlientToGrid();
+                }
+            }
+        }
+
+        void MoveAlientToGrid()
+        {
+            float distCovered = (Time.time - startTime) * Speed;
+            float fracJourney = distCovered / journeyLength;
+            transform.position = Vector3.Lerp(startPosition, endPosition, fracJourney);
+            if (Vector3.Distance(transform.position, endPosition) < 0.1f)
+                _allien.state = AllienState.STILL_IN_GRID;
+        }
+
+        void AllienAttack()
+        {
+            float distCovered = (Time.time - _allien.TimeToAttack) * _allien.AttackSpeed;
+            float fracJourney = distCovered / journeyLength;
+            transform.position = Vector3.Lerp(startPosition, _allien.PlayerPosition, fracJourney);
+            if (Vector3.Distance(transform.position, _allien.PlayerPosition) < 0.1f)
+            {
+                startPosition = transform.position;
+                endPosition = TileToMove.transform.position;
+                startTime = Time.time;
+                _allien.state = AllienState.RETURN_TO_GRID;
+            }
+        }
+
+        void ReturnAlientToGrid()
+        {      
+            float distCovered = (Time.time - startTime) * _allien.AttackSpeed;
+            float fracJourney = distCovered / journeyLength;
+            transform.position = Vector3.Lerp(startPosition, endPosition, fracJourney);
+            if (Vector3.Distance(transform.position, endPosition) < 0.1f)
+            {
+                transform.position = TileToMove.transform.position;
+                startPosition = transform.position;
+                _allien.state = AllienState.STILL_IN_GRID;
             }
         }
 

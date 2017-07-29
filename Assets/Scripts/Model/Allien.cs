@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Model {
 
-    public enum AllienState { CREATED, ENTERING, STILL_IN_GRID, DIVING_ONE, DIVING_TWO }
+    public enum AllienState { CREATED, ENTERING, STILL_IN_GRID, RETURN_TO_GRID, DIVING_ONE, DIVING_TWO }
     public enum AllienType { BEE, BUTTERFLY, BOSS, BOSS_GREEN }
 
     public class Allien {
@@ -20,6 +20,12 @@ namespace Model {
         public List<Bullet> Bullets { set; get; }
 
         public string TileName { set; get; }
+
+        public Vector3 PlayerPosition { set; get; }
+
+        public float TimeToAttack { set; get; }
+
+        public float AttackSpeed { set; get; }
 
         public Allien()
         {

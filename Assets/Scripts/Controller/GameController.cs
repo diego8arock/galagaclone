@@ -61,6 +61,12 @@ namespace Controller
 
         public AudioClip Intro;
         public AudioClip Coin;
+        public float SpeedWave1;
+        public float SpeedWave2;
+        public float SpeedWave3;
+        public float SpeedWave4;
+        public float SpeedWave5;
+        public float AlienAttackSpeed;
         // Use this for initialization
         void Start()
         {
@@ -230,6 +236,11 @@ namespace Controller
 
             if (_waves != null && _waves[5] && !_alienInvasionCompleted)
                 _alienInvasionCompleted = AreAllAliensInGrid();
+
+            if (_alienInvasionCompleted)
+            {
+                StartAllienAttack();
+            }
         }
 
         void Level1Config()
@@ -338,11 +349,11 @@ namespace Controller
             Vector3 initialPositionFirstWave = new Vector3(0.0f, 6.0f, 0);
             List<GameObject> wave = new List<GameObject> { PrefaBee };
             List<string> tilesId = new List<string> { "1-5", "1-6", "2-5", "2-6" };
-            GenerateAlienWave(wave, initialPositionFirstWave, tilesId, "EnterPath1", 2);
+            GenerateAlienWave(wave, initialPositionFirstWave, tilesId, "EnterPath1", SpeedWave1);
 
             wave = new List<GameObject> { PrefaButterfly };
             tilesId = new List<string> { "3-4", "3-5", "4-4", "4-5" };
-            GenerateAlienWave(wave, initialPositionFirstWave, tilesId, "EnterPath2", 2);
+            GenerateAlienWave(wave, initialPositionFirstWave, tilesId, "EnterPath2", SpeedWave1);
         }
 
         void GenerateSecondWave()
@@ -350,7 +361,7 @@ namespace Controller
             Vector3 initialPositionSecondWave = new Vector3(-10.0f, -3.0f, 0);
             List<GameObject> wave = new List<GameObject> { PrefaBoss, PrefaButterfly };
             List<string> tilesId = new List<string> { "5-1", "3-3", "5-2", "4-3", "5-3", "3-6", "5-4", "4-6" };
-            GenerateAlienWave(wave, initialPositionSecondWave, tilesId, "EnterPath3", 2, true);
+            GenerateAlienWave(wave, initialPositionSecondWave, tilesId, "EnterPath3", SpeedWave2, true);
         }
 
         void GenerateThirdWave()
@@ -358,7 +369,7 @@ namespace Controller
             Vector3 initialPositionThirdWave = new Vector3(10.0f, -3.0f, 0);
             List<GameObject> wave = new List<GameObject> { PrefaButterfly };
             List<string> tilesId = new List<string> { "3-1", "3-2", "3-7", "3-8", "4-1", "4-2", "4-7", "4-8" };
-            GenerateAlienWave(wave, initialPositionThirdWave, tilesId, "EnterPath4", 2);
+            GenerateAlienWave(wave, initialPositionThirdWave, tilesId, "EnterPath4", SpeedWave3);
         }
 
         void GenerateFourthWave()
@@ -366,7 +377,7 @@ namespace Controller
             Vector3 initialPositionFourthWave = new Vector3(0.0f, 6.0f, 0);
             List<GameObject> wave = new List<GameObject> { PrefaBee };
             List<string> tilesId = new List<string> { "1-1", "2-1", "1-2", "2-2", "1-3", "2-3", "1-4", "2-4" };
-            GenerateAlienWave(wave, initialPositionFourthWave, tilesId, "EnterPath5", 2);
+            GenerateAlienWave(wave, initialPositionFourthWave, tilesId, "EnterPath5", SpeedWave4);
         }
 
         void GenerateFifthWave()
@@ -374,7 +385,7 @@ namespace Controller
             Vector3 initialPositionFifthWave = new Vector3(0.0f, 6.0f, 0);
             List<GameObject> wave = new List<GameObject> { PrefaBee };
             List<string> tilesId = new List<string> { "1-7", "2-7", "1-8", "2-8", "1-9", "2-9", "1-10", "2-10" };
-            GenerateAlienWave(wave, initialPositionFifthWave, tilesId, "EnterPath6", 2);
+            GenerateAlienWave(wave, initialPositionFifthWave, tilesId, "EnterPath6", SpeedWave5);
         }
 
         public Allien AddAllien(GameObject gameObject, float velocity, string tileName)
@@ -384,7 +395,10 @@ namespace Controller
             allien.Velocity = velocity;
             allien.TileName = tileName;
             allien.state = Model.AllienState.CREATED;
-            //allien.type = Model.AllienType.BOSS_GREEN;
+            allien.AttackSpeed = AlienAttackSpeed;
+            string row = tileName.Split('-')[0];
+            if (row == "5")
+                allien.type = Model.AllienType.BOSS_GREEN;
             return allien;
         }
 
@@ -422,6 +436,21 @@ namespace Controller
         bool AreAllAliensInGrid()
         {
             return _alliens.Count(a => a.state == Model.AllienState.STILL_IN_GRID) == _alliens.Count;
+        }
+
+        void StartAllienAttack()
+        {
+            SendAllientToAttach(_alliens[0]);
+        }
+
+        void SendAllientToAttach(Allien allien)
+        {
+            if (allien.state == AllienState.STILL_IN_GRID)
+            {
+                allien.PlayerPosition = GameObject.Find("Player").transform.position;
+                allien.state = AllienState.DIVING_ONE;
+                allien.TimeToAttack = Time.time;
+            }
         }
     }
 }
