@@ -14,9 +14,9 @@ namespace Controller
         public GameObject PrefaBoss;
         public GameObject Ship;
         public GameObject Player;
+        private GameObject PrefaMedal;
         public float VelocityAllien;
-        public static List<Allien> Alliens { set; get; }
-        private bool Started = false;
+        public static bool Started = false;
         private Vector3 InitialPosition;
         public static List<GameObject> Lives;
         private Text StartText;
@@ -42,7 +42,7 @@ namespace Controller
 
         private Dictionary<string, GameObject> _grid;
         private Dictionary<int, bool> _waves;
-        private List<Allien> _alliens;
+        public static List<Allien> _alliens;
         private bool _goRight;
         private bool _goLeft;
 
@@ -59,46 +59,55 @@ namespace Controller
         List<GameObject> _tilesLeft;
         private Vector3 _tileLeft0StartPosition;
 
+        public AudioClip Intro;
+        public AudioClip Coin;
         // Use this for initialization
         void Start()
         {
             ScoreValue = 0;
             HighScoreValue = 30000;
-            Alliens = new List<Allien>();
             Lives = new List<GameObject>();
             StartText = GameObject.Find("StartText").GetComponent<Text>();
             StageText = GameObject.Find("StageText").GetComponent<Text>();
             LiveText = GameObject.Find("LiveText").GetComponent<Text>();
             ReadyText = GameObject.Find("ReadyText").GetComponent<Text>();
             GameOverText = GameObject.Find("GameOverText").GetComponent<Text>();
+            PrefaMedal = GameObject.Find("prefaMedal");
 
-            GameObject ship = (GameObject)Instantiate(Ship, new Vector3(4.58f, -0.53f, 0), Quaternion.identity);
+            GameObject ship = (GameObject)Instantiate(Ship, new Vector3(4.58f, -0.53f, 90), Quaternion.identity);
             Lives.Add(ship);
-            ship = (GameObject)Instantiate(Ship, new Vector3(5.27f, -0.53f, 0), Quaternion.identity);
+            ship = (GameObject)Instantiate(Ship, new Vector3(5.27f, -0.53f, 90), Quaternion.identity);
             Lives.Add(ship);
-            ship = (GameObject)Instantiate(Ship, new Vector3(5.94f, -0.53f, 0), Quaternion.identity);
+            ship = (GameObject)Instantiate(Ship, new Vector3(5.94f, -0.53f, 90), Quaternion.identity);
             Lives.Add(ship);
 
+            PrefaMedal.GetComponent<Renderer>().enabled = false;
             StageText.enabled = false;
             ReadyText.enabled = false;
             GameOverText.enabled = false;
             Player.SetActive(false);
             GetGrid();
             Level1Config();
+            GetComponent<AudioSource>().playOnAwake = false;
+            GetComponent<AudioSource>().clip = Intro;
+            GetComponent<AudioSource>().Play();
             StartCoroutine(BeginStart());
         }
 
         IEnumerator BeginStart()
         {
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(7);
             StartText.enabled = false;
+            GetComponent<AudioSource>().clip = Coin;
+            GetComponent<AudioSource>().Play();
             yield return new WaitForSeconds(1);
             StageText.enabled = true;
+            PrefaMedal.GetComponent<Renderer>().enabled = true;
             yield return new WaitForSeconds(2);
             StageText.enabled = false;
             ReadyText.enabled = true;
-            Started = true;
             yield return new WaitForSeconds(2);
+            GameController.Started = true;
             ReadyText.enabled = false;
             StartGame();
         }
@@ -153,7 +162,7 @@ namespace Controller
         void Update()
         {
             TimeLiveEnable -= Time.deltaTime;
-            if (Started && TimeLiveEnable <= 0)
+            if (GameController.Started && TimeLiveEnable <= 0)
             {
                 LiveText.enabled = !LiveText.enabled;
                 TimeLiveEnable = 0.3f;
@@ -169,7 +178,7 @@ namespace Controller
         {
             Text Score = GameObject.Find("Score").GetComponent<Text>();
             Text HighScore = GameObject.Find("HighScore").GetComponent<Text>();
-            foreach (Model.Allien allien in GameController.Alliens)
+            foreach (Model.Allien allien in GameController._alliens)
             {
                 if (allienObject.Equals(allien.gameObject))
                 {
@@ -219,7 +228,7 @@ namespace Controller
                 }
             }
 
-            if (_waves[5] && !_alienInvasionCompleted)
+            if (_waves != null && _waves[5] && !_alienInvasionCompleted)
                 _alienInvasionCompleted = AreAllAliensInGrid();
         }
 
@@ -375,6 +384,7 @@ namespace Controller
             allien.Velocity = velocity;
             allien.TileName = tileName;
             allien.state = Model.AllienState.CREATED;
+            //allien.type = Model.AllienType.BOSS_GREEN;
             return allien;
         }
 

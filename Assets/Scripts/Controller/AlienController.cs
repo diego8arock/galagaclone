@@ -18,22 +18,27 @@ namespace Controller
         private Vector3 startPosition;
         private Vector3 endPosition;
         private GameObject TileToMove;
+        private Animator animator;
+        public AudioClip Explode;
+        public AudioClip Results;
 
         // Use this for initialization
         void Start()
         {
             _allien = new Allien();
             disparo = false;
+            animator = GetComponent<Animator>();
+            GetComponent<AudioSource>().playOnAwake = false;
         }
 
         // Update is called once per frame
         void Update()
         {
-           /* if (!disparo)
+           if (GameController._alliens != null && GameController._alliens.Count > 0 && !disparo)
             {
                 int alienIndex = Random.Range(1, 2);
 
-                if (gameObject.Equals(GameController.Alliens[alienIndex].gameObject))
+                if (gameObject.Equals(GameController._alliens[alienIndex].gameObject))
                 {
                     if (_allien.Bullets.Count < 1)
                     {
@@ -48,8 +53,8 @@ namespace Controller
                         {
                             bulletFire.gameObject.transform.Translate(new Vector3(0, 1) * Time.deltaTime * -bulletFire.Velocity);
 
-                            Vector3 bulletScreenPosition = Camera.main.WorldToScreenPoint(bulletFire.gameObject.transform.position);
-                            if (bulletScreenPosition.y >= Screen.height || bulletScreenPosition.y < 0)
+                            //Vector3 bulletScreenPosition = Camera.main.WorldToScreenPoint(bulletFire.gameObject.transform.position);
+                            if (bulletFire.gameObject.transform.position.y < -5f)
                             {
                                 disparo = true;
                                 DestroyObject(bulletFire.gameObject);
@@ -61,7 +66,7 @@ namespace Controller
                             _allien.Bullets.Remove(bulletFire);
                     }
                 }
-            }*/
+            }
 
             if (_allien != null)
             {
@@ -86,8 +91,50 @@ namespace Controller
             if (collision.gameObject.tag == "bullet")
             {
                 DestroyObject(collision.gameObject);
-                DestroyObject(gameObject);
+            }
+            Model.Allien allienRemove = null;
+            if (animator.GetInteger("state") >= 0)
+            {
+                bool destroy = false;
+                if (collision.gameObject.tag == "ship")
+                {
+                    destroy = true;
+                } else
+                {
+                    if (GameController._alliens != null)
+                    {
+                        foreach (Model.Allien allien in GameController._alliens)
+                        {
+                            if (gameObject.Equals(allien.gameObject))
+                            {
+                                Debug.Log("allien.type " + allien.type);
+                                if (allien.type.Equals(AllienType.BOSS_GREEN))
+                                {
+                                    allien.type = AllienType.BOSS;
+                                    animator.SetInteger("state", 1);
+                                }
+                                else
+                                {
+                                    allienRemove = allien;
+                                    destroy = true;
+                                }
+                                break;
+                            }
+                        }
+                    }
+                }
                 GameController.setScore(this.gameObject);
+                if(destroy)
+                {
+                    if (allienRemove != null)
+                    {
+                        GameController._alliens.Remove(allienRemove);
+                    }
+                    animator.SetInteger("state", -1);
+                    GetComponent<AudioSource>().clip = Explode;
+                    GetComponent<AudioSource>().Play();
+                    StartCoroutine(Dead());
+                }
             }
         }
 
@@ -102,6 +149,24 @@ namespace Controller
             _allien.state = AllienState.ENTERING;
             startTime = Time.time;
             journeyLength = Vector3.Distance(startPosition, endPosition);
+        }
+
+        IEnumerator Dead()
+        {
+            //animation.Play();
+            yield return new WaitForSeconds(1);
+            if (GameController._alliens.Count == 0)
+            {
+                gameObject.GetComponent<Renderer>().enabled = false;
+                Text GameOver = GameObject.Find("GameOverText").GetComponent<Text>();
+                GameOver.enabled = true;
+                GetComponent<AudioSource>().clip = Results;
+                GetComponent<AudioSource>().loop = true;
+                GetComponent<AudioSource>().Play();
+            } else
+            {
+                DestroyObject(gameObject);
+            }
         }
 
     }

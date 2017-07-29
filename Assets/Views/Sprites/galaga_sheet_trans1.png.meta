@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 32100eb3e214c1c4eb06981cbefa4736
-timeCreated: 1500947000
+timeCreated: 1501219889
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -146,6 +146,9 @@ TextureImporter:
     21300278: galaga_sheet_trans1_139
     21300280: galaga_sheet_trans1_140
     21300282: galaga_sheet_trans1_141
+    21300284: bullet
+    21300286: alienBullet
+    21300288: galaga_sheet_trans1_143
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -2049,10 +2052,10 @@ TextureImporter:
       name: galaga_sheet_trans1_96
       rect:
         serializedVersion: 2
-        x: 202
-        y: 184
-        width: 38
-        height: 8
+        x: 232
+        y: 187
+        width: 8
+        height: 3
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2869,6 +2872,58 @@ TextureImporter:
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_98
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 41
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bullet
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 320
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alienBullet
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 184
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: galaga_sheet_trans1_143
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 184
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

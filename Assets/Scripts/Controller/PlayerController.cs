@@ -20,6 +20,8 @@ namespace Controller
         Animator animator;
         public AudioClip Shot;
         public AudioClip Explode;
+        public AudioClip StayDead;
+        public AudioClip Results;
 
         // Use this for initialization
         void Start()
@@ -29,6 +31,7 @@ namespace Controller
             _widthOrtho = Camera.main.orthographicSize * _screenRation;
             animator = GetComponent<Animator>();
             GetComponent<AudioSource>().playOnAwake = false;
+            GetComponent<AudioSource>().loop = false;
         }
 
         // Update is called once per frame
@@ -49,6 +52,7 @@ namespace Controller
                         GameObject bulletItem = (GameObject)Instantiate(Bullet, transform.position + new Vector3(0, 0.5f), Quaternion.identity);
                         _player.AddBullet(bulletItem, VelocityBullet);
                         GetComponent<AudioSource>().clip = Shot;
+                        GetComponent<AudioSource>().loop = false;
                         GetComponent<AudioSource>().Play();
                     }
                 }
@@ -103,6 +107,7 @@ namespace Controller
                     GameController.setScore(collision.gameObject);
                 }
                 GetComponent<AudioSource>().clip = Explode;
+                GetComponent<AudioSource>().loop = false;
                 GetComponent<AudioSource>().Play();
                 StartCoroutine(TakeLive());
             }
@@ -111,14 +116,20 @@ namespace Controller
         IEnumerator TakeLive()
         {
             yield return new WaitForSeconds(1);
-            if (GameController.Lives.Count == 0)
+            if (GameController.Lives != null && GameController.Lives.Count == 0)
             {
-                gameObject.SetActive(false);
+                gameObject.GetComponent<Renderer>().enabled = false;
                 Text GameOver = GameObject.Find("GameOverText").GetComponent<Text>();
                 GameOver.enabled = true;
+                GetComponent<AudioSource>().clip = Results;
+                GetComponent<AudioSource>().loop = true;
+                GetComponent<AudioSource>().Play();
             } else
             {
                 gameObject.GetComponent<Renderer>().enabled = false;
+                GetComponent<AudioSource>().clip = StayDead;
+                GetComponent<AudioSource>().loop = true;
+                GetComponent<AudioSource>().Play();
                 yield return new WaitForSeconds(5);
                 animator.SetInteger("state", 0);
                 Text ReadyText = GameObject.Find("ReadyText").GetComponent<Text>();
@@ -127,6 +138,7 @@ namespace Controller
                 ReadyText.enabled = false;
                 GameController.GetLive(gameObject);
                 gameObject.GetComponent<Renderer>().enabled = true;
+                GetComponent<AudioSource>().Stop();
             }
         }
     }

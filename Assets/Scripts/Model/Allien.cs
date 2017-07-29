@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace Model {
 
     public enum AllienState { CREATED, ENTERING, STILL_IN_GRID, DIVING_ONE, DIVING_TWO }
-    public enum AllienType { BEE, BUTTERFLY, BOSS }
+    public enum AllienType { BEE, BUTTERFLY, BOSS, BOSS_GREEN }
 
     public class Allien {
 
@@ -56,7 +56,7 @@ namespace Model {
                         return 160;
                 }
             }
-            else if (AllienType.BOSS == type)
+            else if (AllienType.BOSS == type || AllienType.BOSS_GREEN == type)
             {
                 switch (state)
                 {
@@ -69,25 +69,6 @@ namespace Model {
                     case AllienState.DIVING_TWO:
                         return 1600;
                 }
-            }
-
-            //unhandled rarity?
-            return 0;
-        }
-
-        public float GetAllienPositionX()
-        {
-            if (AllienType.BEE == type)
-            {
-                return -3.88f;
-            }
-            else if (AllienType.BUTTERFLY == type)
-            {
-                return -3.18f;
-            }
-            else if (AllienType.BOSS == type)
-            {
-                return -1.78f;
             }
 
             //unhandled rarity?
